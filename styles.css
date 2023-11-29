@@ -84,6 +84,9 @@ footer {
     color: #fff;
     padding: 5px 10px;
     border-radius: 5px;
+    border: 2px dashed #fff; /* Add a dashed border */
+    display: inline-block; /* Ensure the border surrounds the padding */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
 }
 
 .project a:hover {
