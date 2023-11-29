@@ -13,12 +13,12 @@ li {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to bottom, #f4f4f4, #ddd);
+    background: linear-gradient(to bottom, #F9F9F9, #D9D9D9);
     color: #333;
 }
 
 header {
-    background: linear-gradient(to bottom, #333, #1a1a1a);
+    background: linear-gradient(to bottom, #64B5F6, #2196F3);
     color: #fff;
     padding: 20px 0;
 }
@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #66c7ff;
+    color: #FFB74D;
 }
 
 main {
@@ -80,16 +80,11 @@ p {
     padding: 20px;
     margin-bottom: 30px;
     border-radius: 8px;
-    transition: transform 0.3s ease;
-}
-
-.project:hover {
-    transform: scale(1.05);
 }
 
 .project a {
     text-decoration: none;
-    background: linear-gradient(to bottom, #4CAF50, #45a049);
+    background: linear-gradient(to bottom, #FF8A65, #FF7043);
     color: #fff;
     padding: 10px 15px;
     border-radius: 5px;
@@ -98,13 +93,13 @@ p {
 }
 
 .project a:hover {
-    background: linear-gradient(to bottom, #45a049, #4CAF50);
+    background: linear-gradient(to bottom, #FF7043, #FF8A65);
 }
 
 footer {
     text-align: center;
     padding: 10px 0;
-    background: linear-gradient(to bottom, #333, #1a1a1a);
+    background: linear-gradient(to bottom, #64B5F6, #2196F3);
     color: #fff;
     position: fixed;
     bottom: 0;
